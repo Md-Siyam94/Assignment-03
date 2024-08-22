@@ -24,7 +24,11 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 lightgreen:  'rgb(171, 239, 95)',
                 lightwhite: 'rgb(255, 255, 255)',
                 backgroundcolor: 'rgb(247, 247, 247)',
-                accent: 'rgb(212, 246, 174)'
+                accent: 'rgb(212, 246, 174)',
+                creem: 'rgb(231, 193, 211)',
+                yollow: 'rgb(239, 218, 110)',
+                mintgreen: 'rgb(164, 218, 195)',
+                lightblue: 'rgb(119, 170, 234)',
 
               }
             }
@@ -37,8 +41,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     <header >
         <nav class=" w-11/12 mx-auto px-0 py-4">
             <div class="navbar bg-base-100 ">
-                <div class="navbar-start">
-                  
+                <div class="navbar-start">                
                   <a href="#">
                     <div class="flex items-center  gap-2">
                       <div class="size-8 flex items-center justify-center bg-lightgreen rounded-full">
@@ -69,8 +72,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                       <li><a>Services</a></li>
                       <li><a>Portfolio</a></li>
                       <li><a>Blogs</a></li>
-                      <li><a>Contact Us</a></li>
-                      
+                      <li><a>Contact Us</a></li>                     
                     </ul>
                   </div>
                   <div class=" items-center gap-4 hidden md:flex ">
@@ -78,8 +80,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                         <i class="fa-solid fa-magnifying-glass "></i>
                       </div>
                       <div class="size-10 flex items-center justify-center bg-backgroundcolor rounded-full">
-                        <i class="fa-solid fa-cart-shopping "></i>
-                         
+                        <i class="fa-solid fa-cart-shopping "></i>                        
                       </div>
                       <div class="flex items-center gap-2 bg-lightgreen h-12 w-48 rounded-3xl justify-center ">
                         <span class="font-bold">Book consult</span>
@@ -110,15 +111,13 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
           </div>
         </section>
     </header>
+    
     <main class="bg-backgroundcolor">
-      <section class="w-10/12 mx-auto border border-blue-800">
+      <section class="w-10/12 mx-auto ">
         <img class="ml-[-60px] mt-8 mb-5 md:block hidden" src="B10-Assignment-03-main/assets/Vector.png" alt="">
-        <div class=" w-full border border-red-800 flex flex-col sm:flex-row ">
-
-          <div class="">
-
-            
-            <div class="w-[96%] border text-center sm:text-start">
+        <div class=" w-full flex flex-col sm:flex-row ">
+          <div class="">           
+            <div class="w-[96%] text-center sm:text-start">
               <div class="flex items-center gap-1 bg-accent h-10 w-32 rounded-3xl justify-center sm:ml-0 mx-auto ">
                 <div class="size-8 flex items-center justify-center  ">
                   <i class="fa-solid fa-arrow-up-long rotate-90"></i>
@@ -137,7 +136,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <p class="w-4/5">The barn house captivates with its blend of rustic charm and modern.</p>
               </div>
             </div>
-            <div class="flex border my-5 w-[96%] gap-4 items-center rounded-2xl">
+            <div class="flex border mt-5 w-[96%] gap-4 items-center rounded-2xl">
               <div class="ml-4"><img src="B10-Assignment-03-main/assets/residential.png" alt=""></div>
               <div class="h-32 flex flex-col justify-center  ">
                 <h2 class="font-bold">Residential</h2>
@@ -145,9 +144,64 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
               </div>
             </div>
           </div>
-          <div class="  border border-blue-800">
+          <div>
             <img src="B10-Assignment-03-main/assets/Rectangle.png" alt="">
           </div>
+        </div>
+      </section>
+
+      <section class="bg-backgroundcolor">
+        <div class="sm:w-10/12 w-11/12 mx-auto mt-24 ">
+          <div class=" text-center">
+            <div class="flex items-center gap-0.5 bg-accent h-10 w-48 rounded-3xl justify-center mx-auto ">
+              <div class="size-8 flex items-center  justify-center  ">
+                <i class="fa-solid fa-arrow-up-long rotate-90"></i>
+              </div>
+              <span class="font-bold">How We Works</span>                
+            </div>
+            <h1 class="text-4xl font-bold my-5">Our Works Process</h1>
+            <p class="sm:w-7/12 w-[96%] mx-auto my-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+
+          <div class=" flex flex-col sm:flex-row space-y-4 sm:space-y-0  sm:space-x-8">
+            <div class="sm:w-64 w-full h-56 bg-creem pl-6 pr-8 rounded-2xl mb-24">
+              <img class="my-2 mt-5" src="B10-Assignment-03-main/assets/concept.png" alt="">
+              <h4 class="font-bold text-lg">Consept</h4>
+              <p class="my-2">The barn house captivates with its blend of rustic charm and modern</p>
+            </div>
+            <div class="sm:w-64 w-full h-56 bg-yollow pl-6 pr-8 rounded-2xl ">
+              <img class="my-2 mt-5" src="B10-Assignment-03-main/assets/flow-chart.png" alt="">
+              <h4 class="font-bold text-lg">Design Process</h4>
+              <p class="my-2">The barn house captivates with its blend of rustic charm and modern</p>
+            </div>
+            <div class="sm:w-64 w-full h-56 bg-mintgreen pl-6 pr-8 rounded-2xl ">
+              <img class="my-2 mt-5" src="B10-Assignment-03-main/assets/vision.png" alt="">
+              <h4 class="font-bold text-lg">Supervision</h4>
+              <p class="my-2">The barn house captivates with its blend of rustic charm and modern</p>
+            </div>
+            <div class="sm:w-64 w-full h-56 bg-lightblue pl-6 pr-8 rounded-2xl ">
+              <img class="my-2 mt-5" src="B10-Assignment-03-main/assets/budget-planning.png" alt="">
+              <h4 class="font-bold text-lg">Budget Planning</h4>
+              <p class="my-2">The barn house captivates with its blend of rustic charm and modern</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-ligthwhite">
+        <div class="sm:w-5/6 mx-auto mt-20 border border-red-800">
+          <div class="text-center">
+            <div class="flex items-center gap-0.5 bg-accent h-10 w-48 rounded-3xl justify-center mx-auto ">
+              <div class="size-8 flex items-center  justify-center  ">
+                <i class="fa-solid fa-arrow-up-long rotate-90"></i>
+              </div>
+              <span class="font-bold">How We Works</span>                
+            </div>
+            <h1 class="text-4xl font-bold my-5">Our Latest Portfolio</h1>
+            <p class="sm:w-7/12 w-[96%] mx-auto my-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+
+          <div></div>
         </div>
       </section>
     </main>
